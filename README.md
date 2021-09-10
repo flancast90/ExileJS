@@ -4,6 +4,12 @@
 [![npm bundle size](https://img.shields.io/bundlephobia/min/exile-js) ![npm (scoped)](https://img.shields.io/npm/v/exile-js)](https://www.npmjs.com/package/exile-js)
 
 
+### What Makes ExileJS Different?
+Unlike other traditional banning softwares, ExileJS is unique in the fact that it uses browser fingerprints to ban users, as oppossed to the normal IP ban. This simple change not only makes ExileJS more modern than the other softwares, but also more effective, since it will not be confused by VPN's, proxies, or even Incognito tabs!
+
+You think I'm lying? Test it out, and understand why EcileJS is truly **next-gen**!
+
+
 ### Install
 **NPM Package**
 ```bash
