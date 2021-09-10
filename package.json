@@ -1,6 +1,6 @@
 {
     "name": "exile-js",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Comprehensive banning library for NodeJS games/applications!",
     "license": "MIT",
     "repository": "flancast90/ExileJS",
