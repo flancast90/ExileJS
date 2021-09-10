@@ -19,9 +19,20 @@ $ npm install exile-js
 
 ### Usage
 1. Create a text file named ``blacklist.txt`` in the same directory as your node.js ``server`` file.
-2. Add the below lines to your node.js ``server`` file
+2. Add the below lines to your node.js ``server`` file, and from the ``dist`` folder, include a copy of the ``client.min.js`` file with a script tag.
 ```javascript
-updated, changing now.
+const exile = require('exile-js');
+
+app.post('/exile', function (req, res) {
+  var fingerprint = req.body.fingerprint;
+  if (exile.check(fingerprint)=="banned") {
+    console.log("Blocked user "+fingerprint+" is trying to connect.");
+    res.status(403).send();
+  }else{
+    console.log(""+fingerprint+" just connected");
+    res.status(200).send();
+  }
+});
 ```
 
 Still have questions? Check out the ``example`` folder for a working demo without an ``npm install``!
