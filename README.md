@@ -1,7 +1,7 @@
 ### ExileJS
 > A comprehensive banning library for NodeJS applications.
 
-![npm bundle size](https://img.shields.io/bundlephobia/min/exile-js) ![npm (scoped)](https://img.shields.io/npm/v/exile-js)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/exile-js) ![npm (scoped)](https://img.shields.io/npm/v/exile-js)](https://www.npmjs.com/package/exile-js)
 
 
 ### Install
