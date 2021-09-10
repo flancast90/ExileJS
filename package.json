@@ -1,0 +1,17 @@
+{
+    "name": "exile-js",
+    "version": "1.0.1",
+    "description": "Comprehensive banning library for NodeJS games/applications!",
+    "license": "MIT",
+    "repository": "flancast90/ExileJS",
+    "main": "index.js",
+    "keywords": [
+        "ban",
+        "npm",
+        "game",
+        "flancast90"
+    ],
+    "dependencies": {
+        "express-fingerprint": "^1.2.2"
+    }
+}
