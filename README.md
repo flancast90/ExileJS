@@ -24,6 +24,8 @@ $ npm install exile-js
 updated, changing now.
 ```
 
+Still have questions? Check out the ``example`` folder for a working demo without an ``npm install``!
+
 
 ### Accepted Args
 ```javascript
