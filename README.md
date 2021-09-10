@@ -49,7 +49,7 @@ app.get('*',function(req,res,next) {
 exile.ban(userId);
 
 // checks if a user is banned or not.
-exile.status(userId);
+exile.check(userId);
 
 // unbans a previously banned user.
 exile.unban(userId);
