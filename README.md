@@ -16,35 +16,12 @@ You think I'm lying? Test it out, and understand why ExileJS is truly **next-gen
 $ npm install exile-js
 ```
 
-**Dependencies**
-```bash
-$ npm install express-fingerprint
-```
-
 
 ### Usage
 1. Create a text file named ``blacklist.txt`` in the same directory as your node.js ``server`` file.
 2. Add the below lines to your node.js ``server`` file
 ```javascript
-const exile = require('exile-js');
-// dependency initialisation
-var Fingerprint = require('express-fingerprint')
-
-// We will store user fingerprint here
-var userid;
-
-app.use(Fingerprint({
-	parameters:[
-		// Defaults
-		Fingerprint.useragent,
-		Fingerprint.acceptHeaders,
-		Fingerprint.geoip,
-	]
-}))
-
-app.get('*',function(req,res,next) {
-	userid = req.fingerprint.hash;
-})
+updated, changing now.
 ```
 
 
