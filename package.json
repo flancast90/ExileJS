@@ -10,8 +10,5 @@
         "npm",
         "game",
         "flancast90"
-    ],
-    "dependencies": {
-        "express-fingerprint": "^1.2.2"
-    }
+    ]
 }
